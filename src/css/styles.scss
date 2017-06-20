@@ -1,0 +1,24 @@
+$react: #61DAFB;
+$react-logo: #53C1DE;
+$white: #fff;
+
+.container {
+  text-align: center;
+  .logo {
+    height: 250px;
+    width: 250px;
+  }
+  .test-button {
+    color: $white;
+    background: $react;
+    border: none;
+    border-radius: 5px;
+    padding: 11px 13px;
+    text-transform: uppercase;
+    margin: 3em 0;
+    cursor: pointer;
+    &:hover {
+      background: $react-logo;
+    }
+  }
+}
